@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="vlog.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="vlog.js"></script>
+    <title>VLog</title>
+</head>
+
+<body>
+    <div class="container-fluid p-5">
+        <div class="row search__container justify-content-end w-100">
+            <input class="search__input" type="text" placeholder="Search">
+        </div>
+        <ul class="nav nav-tabs w-100" id="vlog-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
+                    aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ordering-tab" data-toggle="tab" href="#ordering" role="tab"
+                    aria-controls="ordering" aria-selected="true">Ordering</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="self-report-tab" data-toggle="tab" href="#self-report" role="tab"
+                    aria-controls="self-report" aria-selected="false">Self Report</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="results-tab" data-toggle="tab" href="#results" role="tab"
+                    aria-controls="results" aria-selected="false">Results</a>
+            </li>
+        </ul>
+        <div class="tab-content m-4">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="nav-all-tab">
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 col-md-4 col-sm-auto pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-8 col-sm-auto align-self-center w-100">
+                        <h2>Vlog for Ordering</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite>
+                        </footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Self Report</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Results</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ordering" role="tabpanel" aria-labelledby="nav-ordering-tab">
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Ordering</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Ordering</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Ordering</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="self-report" role="tabpanel" aria-labelledby="nav-self-report-tab">
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Self Report</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Self Report</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Self Report</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="results" role="tabpanel" aria-labelledby="nav-results-tab">
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Results</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Results</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2 bg-light rounded">
+                    <div class="col-4 pl-0">
+                        <div class="embed-responsive embed-responsive-16by9 video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-8 align-self-center w-100">
+                        <h2>Vlog for Results</h2>
+                        <p class="mt-3">
+                            Auto-layout for flexbox grid columns also means you can set the width of one column and
+                            have
+                            the sibling columns automatically resize around it. You may use predefined grid classes
+                            (as
+                            shown below), grid mixins, or inline widths. Note that the other columns will resize no
+                            matter the width of the center column.
+                        </p>
+                        <footer class="blockquote-footer"><cite class="publisher"></cite></footer>
+                        <div class="m-2">
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/good-quality.png"></span>
+                            <span class="ripple"><img
+                                    src="https://img.icons8.com/ultraviolet/40/000000/poor-quality.png"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
